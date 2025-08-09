@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pyframe"
 version = "0.1.0"
 authors = [
-    {name = "PyFrame Team", email = "hello@pyframe.dev"},
+    {name = "PyFrame Team", email = "pyframe@example.com"},
 ]
 description = "Revolutionary Full-Stack Python Web Framework - Write React-like components in pure Python"
 readme = "README.md"

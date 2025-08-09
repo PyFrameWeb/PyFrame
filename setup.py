@@ -26,7 +26,7 @@ setup(
     name="pyframe",
     version=get_version(),
     author="PyFrame Team",
-    author_email="hello@pyframe.dev",
+    author_email="pyframe@example.com",
     description="Revolutionary Full-Stack Python Web Framework - Write React-like components in pure Python",
     long_description=read_readme(),
     long_description_content_type="text/markdown",

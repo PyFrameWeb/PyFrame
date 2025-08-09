@@ -531,7 +531,7 @@ PyFrame is inspired by:
 - [GitHub Discussions](https://github.com/pyframe/pyframe/discussions) - Questions and ideas
 - [Discord Server](https://discord.gg/pyframe) - Real-time chat
 - [Twitter](https://twitter.com/pyframe) - Updates and announcements
-- [Blog](https://pyframe.dev/blog) - Tutorials and deep dives
+- [Examples](https://github.com/PyFrameWeb/PyFrame/tree/main/examples) - Sample applications and tutorials
 
 ---
 
@@ -541,4 +541,4 @@ PyFrame is inspired by:
 pip install pyframe
 ```
 
-[Get Started](https://pyframe.dev/docs/getting-started) | [Examples](https://github.com/pyframe/examples) | [API Docs](https://pyframe.dev/docs/api)
+[Get Started](https://github.com/PyFrameWeb/PyFrame/blob/main/docs/core-concepts.md) | [Examples](https://github.com/PyFrameWeb/PyFrame/tree/main/examples) | [API Docs](https://github.com/PyFrameWeb/PyFrame/tree/main/docs/api-reference)

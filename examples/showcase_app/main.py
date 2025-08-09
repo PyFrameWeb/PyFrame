@@ -1429,7 +1429,7 @@ class ContactPage(Component):
                                     <div class="method-content">
                                         <h4>Email Support</h4>
                                         <p>Send us an email for support or partnership inquiries</p>
-                                        <a href="mailto:hello@pyframe.dev" class="contact-link">hello@pyframe.dev</a>
+                                        <a href="mailto:pyframe@example.com" class="contact-link">pyframe@example.com</a>
                                     </div>
                                 </div>
                                 

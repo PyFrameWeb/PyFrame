@@ -158,7 +158,7 @@ if __name__ == "__main__":
     # Create README.md
     readme = f'''# {project_name}
 
-A [PyFrame](https://pyframe.dev) application.
+A [PyFrame](https://github.com/PyFrameWeb/PyFrame) application.
 
 ## Getting Started
 
