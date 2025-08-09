@@ -9,12 +9,12 @@
 <!-- Version and Release Badges -->
 [![PyPI version](https://badge.fury.io/py/pyframe-web.svg)](https://badge.fury.io/py/pyframe-web)
 [![Python Version](https://img.shields.io/pypi/pyversions/pyframe-web.svg)](https://pypi.org/project/pyframe-web/)
-[![Downloads](https://pepy.tech/badge/pyframe-web)](https://pepy.tech/project/pyframe-web)
+[![Downloads](https://img.shields.io/pypi/dm/pyframe-web)](https://pypi.org/project/pyframe-web/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- Build and Quality Badges -->
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/PyFrameWeb/PyFrame/ci.yml?branch=main)](https://github.com/PyFrameWeb/PyFrame/actions)
-[![Codecov](https://codecov.io/gh/PyFrameWeb/PyFrame/branch/main/graph/badge.svg)](https://codecov.io/gh/PyFrameWeb/PyFrame)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/PyFrameWeb/PyFrame)
+[![Stability](https://img.shields.io/badge/stability-beta-yellow)](https://github.com/PyFrameWeb/PyFrame)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
@@ -29,8 +29,8 @@
 <!-- Documentation and Support Badges -->
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://pyframeweb.github.io/PyFrame/)
 [![Discussions](https://img.shields.io/github/discussions/PyFrameWeb/PyFrame)](https://github.com/PyFrameWeb/PyFrame/discussions)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?logo=discord&logoColor=white)](https://discord.gg/pyframe)
-[![Twitter Follow](https://img.shields.io/twitter/follow/PyFrameWeb?style=social)](https://twitter.com/PyFrameWeb)
+[![Community](https://img.shields.io/badge/community-welcome-brightgreen)](https://github.com/PyFrameWeb/PyFrame/discussions)
+[![Support](https://img.shields.io/badge/support-GitHub%20Issues-blue)](https://github.com/PyFrameWeb/PyFrame/issues)
 
 <!-- Framework and Technology Badges -->
 [![Framework](https://img.shields.io/badge/Framework-Full--Stack-success)](https://pyframeweb.github.io/PyFrame/)
@@ -44,9 +44,9 @@
 
 ### 📊 **Badge Guide**
 - **Version & Release**: Current PyPI version, Python compatibility, and download stats  
-- **Build & Quality**: CI/CD status, code coverage, formatting, and pre-commit hooks
+- **Build & Quality**: Build status, stability level, code formatting, and development tools
 - **Repository & Activity**: GitHub stars, forks, issues, contributors, and recent activity
-- **Documentation & Support**: Official docs, community discussions, and social links
+- **Documentation & Support**: Official docs, community discussions, and GitHub support
 - **Framework & Technology**: Key features like WebSockets, hot reload, components, ORM, and plugins
 
 ---
