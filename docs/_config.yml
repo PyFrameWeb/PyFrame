@@ -1,0 +1,111 @@
+# GitHub Pages Configuration for PyFrame Documentation
+
+# Site settings
+title: PyFrame Documentation
+description: "Revolutionary Python Web Framework - Write React-like components in pure Python"
+url: "https://pyframeweb.github.io"
+baseurl: "/PyFrame"
+
+# Author information
+author:
+  name: PyFrame Team
+  email: pyframe@example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages settings
+repository: PyFrameWeb/PyFrame
+branch: main
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "API Reference"
+    url: "/api-reference/"
+  - title: "GitHub"
+    url: "https://github.com/PyFrameWeb/PyFrame"
+  - title: "PyPI"
+    url: "https://pypi.org/project/pyframe-web/"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: PyFrameWeb
+  card: summary_large_image
+
+social:
+  name: PyFrame
+  links:
+    - https://github.com/PyFrameWeb/PyFrame
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Include files
+include:
+  - _pages
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Custom variables
+version: "0.1.0"
+github_repo: "https://github.com/PyFrameWeb/PyFrame"
+pypi_package: "https://pypi.org/project/pyframe-web/"
+
+# Documentation structure
+docs_sections:
+  - title: "Core Concepts"
+    files:
+      - core-concepts
+      - components-state
+      - routing-navigation
+  - title: "Advanced Features"
+    files:
+      - realtime-features
+      - data-models-apis
+      - advanced-topics
+      - custom-hooks
+      - performance-optimization
+  - title: "Development"
+    files:
+      - plugin-development
+      - deployment-guide
+  - title: "API Reference"
+    files:
+      - api-reference/component-api
+      - api-reference/model-api
+      - api-reference/plugin-api
+      - api-reference/server-api
