@@ -1,6 +1,6 @@
 # PyFrame Documentation
 
-![PyFrame Logo](../PyFrame-logo.png)
+![PyFrame Logo](pyframe-logo.svg)
 
 Welcome to the comprehensive documentation for **PyFrame** - the revolutionary Python web framework that lets you write React-like components in pure Python.
 
