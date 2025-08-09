@@ -124,7 +124,7 @@ PyFrame uses a layered architecture where each component can be used independent
 ### Installation
 
 ```bash
-pip install pyframe
+pip install pyframe-web
 ```
 
 ### Using the CLI (Recommended)
@@ -133,7 +133,7 @@ PyFrame includes a command-line tool to help you get started quickly:
 
 ```bash
 # Create a new project
-pyframe create my-awesome-app
+pyframe-web create my-awesome-app
 cd my-awesome-app
 
 # Install dependencies
@@ -142,7 +142,7 @@ pip install -r requirements.txt
 # Run the development server
 python main.py
 # or
-pyframe run
+pyframe-web run
 ```
 
 Your app will be available at `http://localhost:3000` with hot reload enabled!
@@ -538,7 +538,7 @@ PyFrame is inspired by:
 **Ready to build the future of web development with Python?** 🐍✨
 
 ```bash
-pip install pyframe
+pip install pyframe-web
 ```
 
 [Get Started](https://github.com/PyFrameWeb/PyFrame/blob/main/docs/core-concepts.md) | [Examples](https://github.com/PyFrameWeb/PyFrame/tree/main/examples) | [API Docs](https://github.com/PyFrameWeb/PyFrame/tree/main/docs/api-reference)

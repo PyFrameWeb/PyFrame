@@ -150,7 +150,7 @@ if __name__ == "__main__":
     (project_path / "main.py").write_text(main_py, encoding='utf-8')
     
     # Create requirements.txt
-    requirements = '''pyframe>=0.1.0
+    requirements = '''pyframe-web>=0.1.0
 # Add your additional dependencies here
 '''
     (project_path / "requirements.txt").write_text(requirements, encoding='utf-8')

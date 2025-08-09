@@ -23,7 +23,7 @@ def get_version():
     return "0.1.0"
 
 setup(
-    name="pyframe",
+    name="pyframe-web",
     version=get_version(),
     author="PyFrame Team",
     author_email="pyframe@example.com",
@@ -82,7 +82,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "pyframe=pyframe.cli:main",
+            "pyframe-web=pyframe.cli:main",
         ],
     },
     package_data={
