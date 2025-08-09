@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="PyFrame-logo.png" alt="PyFrame Logo" width="200" height="200"/>
+  <img src="PyFrame-logo.png" alt="PyFrame Logo" width="500" height="500"/>
   
   # PyFrame - Full-Stack Python Web Framework
 
