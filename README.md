@@ -6,8 +6,50 @@
   **A modern, reactive web framework that allows developers to write both frontend and backend entirely in Python, with automatic compilation to efficient JavaScript for the browser.**
 </div>
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+<!-- Version and Release Badges -->
+[![PyPI version](https://badge.fury.io/py/pyframe-web.svg)](https://badge.fury.io/py/pyframe-web)
+[![Python Version](https://img.shields.io/pypi/pyversions/pyframe-web.svg)](https://pypi.org/project/pyframe-web/)
+[![Downloads](https://pepy.tech/badge/pyframe-web)](https://pepy.tech/project/pyframe-web)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- Build and Quality Badges -->
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/PyFrameWeb/PyFrame/ci.yml?branch=main)](https://github.com/PyFrameWeb/PyFrame/actions)
+[![Codecov](https://codecov.io/gh/PyFrameWeb/PyFrame/branch/main/graph/badge.svg)](https://codecov.io/gh/PyFrameWeb/PyFrame)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+<!-- Repository and Activity Badges -->
+[![GitHub stars](https://img.shields.io/github/stars/PyFrameWeb/PyFrame.svg?style=social&label=Star)](https://github.com/PyFrameWeb/PyFrame)
+[![GitHub forks](https://img.shields.io/github/forks/PyFrameWeb/PyFrame.svg?style=social&label=Fork)](https://github.com/PyFrameWeb/PyFrame/fork)
+[![GitHub issues](https://img.shields.io/github/issues/PyFrameWeb/PyFrame.svg)](https://github.com/PyFrameWeb/PyFrame/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/PyFrameWeb/PyFrame.svg)](https://github.com/PyFrameWeb/PyFrame/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/PyFrameWeb/PyFrame)](https://github.com/PyFrameWeb/PyFrame/commits/main)
+[![Repo size](https://img.shields.io/github/repo-size/PyFrameWeb/PyFrame)](https://github.com/PyFrameWeb/PyFrame)
+
+<!-- Documentation and Support Badges -->
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://pyframeweb.github.io/PyFrame/)
+[![Discussions](https://img.shields.io/github/discussions/PyFrameWeb/PyFrame)](https://github.com/PyFrameWeb/PyFrame/discussions)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?logo=discord&logoColor=white)](https://discord.gg/pyframe)
+[![Twitter Follow](https://img.shields.io/twitter/follow/PyFrameWeb?style=social)](https://twitter.com/PyFrameWeb)
+
+<!-- Framework and Technology Badges -->
+[![Framework](https://img.shields.io/badge/Framework-Full--Stack-success)](https://pyframeweb.github.io/PyFrame/)
+[![WebSockets](https://img.shields.io/badge/WebSockets-Supported-green)](https://pyframeweb.github.io/PyFrame/realtime-features.html)
+[![Hot Reload](https://img.shields.io/badge/Hot%20Reload-Enabled-orange)](https://pyframeweb.github.io/PyFrame/core-concepts.html)
+[![Components](https://img.shields.io/badge/Components-React--like-blue)](https://pyframeweb.github.io/PyFrame/components-state.html)
+[![ORM](https://img.shields.io/badge/ORM-Built--in-purple)](https://pyframeweb.github.io/PyFrame/api-reference/model-api.html)
+[![Plugins](https://img.shields.io/badge/Plugins-Extensible-red)](https://pyframeweb.github.io/PyFrame/plugin-development.html)
+
+---
+
+### 📊 **Badge Guide**
+- **Version & Release**: Current PyPI version, Python compatibility, and download stats  
+- **Build & Quality**: CI/CD status, code coverage, formatting, and pre-commit hooks
+- **Repository & Activity**: GitHub stars, forks, issues, contributors, and recent activity
+- **Documentation & Support**: Official docs, community discussions, and social links
+- **Framework & Technology**: Key features like WebSockets, hot reload, components, ORM, and plugins
+
+---
 
 ## 🚀 **What Makes PyFrame Special**
 
