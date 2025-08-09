@@ -6,6 +6,8 @@
   **A modern, reactive web framework that allows developers to write both frontend and backend entirely in Python, with automatic compilation to efficient JavaScript for the browser.**
 </div>
 
+<div align="center">
+
 <!-- Version and Release Badges -->
 [![PyPI version](https://badge.fury.io/py/pyframe-web.svg)](https://badge.fury.io/py/pyframe-web)
 [![Python Version](https://img.shields.io/pypi/pyversions/pyframe-web.svg)](https://pypi.org/project/pyframe-web/)
@@ -39,6 +41,8 @@
 [![Components](https://img.shields.io/badge/Components-React--like-blue)](https://pyframeweb.github.io/PyFrame/components-state.html)
 [![ORM](https://img.shields.io/badge/ORM-Built--in-purple)](https://pyframeweb.github.io/PyFrame/api-reference/model-api.html)
 [![Plugins](https://img.shields.io/badge/Plugins-Extensible-red)](https://pyframeweb.github.io/PyFrame/plugin-development.html)
+
+</div>
 
 ---
 
