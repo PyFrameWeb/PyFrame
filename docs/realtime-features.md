@@ -523,12 +523,12 @@ class NotificationSystem(StatefulComponent):
     def show_browser_notification(self, notification):
         """Show browser notification"""
         self.execute_js(f'''
-            if (Notification.permission === "granted") {{
-                new Notification("{notification['title']}", {{
+            if (Notification.permission === "granted") {% raw %}{{{% endraw %}
+                new Notification("{notification['title']}", {% raw %}{{{% endraw %}
                     body: "{notification['message']}",
                     icon: "/static/notification-icon.png"
-                }});
-            }}
+                {% raw %}}}{% endraw %});
+            {% raw %}}}{% endraw %}
         ''')
     
     async def mark_as_read(self, notification_id):

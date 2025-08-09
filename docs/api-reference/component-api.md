@@ -477,7 +477,7 @@ from pyframe.registry import register_component
 register_component('my-widget', MyWidget)
 
 # Use in templates
-html = "{{ component('my-widget', name='Alice') }}"
+html = "{% raw %}{{ component('my-widget', name='Alice') }}{% endraw %}"
 ```
 
 ---

@@ -1060,16 +1060,16 @@ jobs:
     - name: Login to registry
       uses: docker/login-action@v2
       with:
-        registry: ${{ secrets.REGISTRY_URL }}
-        username: ${{ secrets.REGISTRY_USERNAME }}
-        password: ${{ secrets.REGISTRY_PASSWORD }}
+        registry: {% raw %}${{ secrets.REGISTRY_URL }}{% endraw %}
+        username: {% raw %}${{ secrets.REGISTRY_USERNAME }}{% endraw %}
+        password: {% raw %}${{ secrets.REGISTRY_PASSWORD }}{% endraw %}
     
     - name: Build and push
       uses: docker/build-push-action@v4
       with:
         context: .
         push: true
-        tags: ${{ secrets.REGISTRY_URL }}/pyframe-app:${{ github.sha }}
+        tags: {% raw %}${{ secrets.REGISTRY_URL }}/pyframe-app:${{ github.sha }}{% endraw %}
         cache-from: type=gha
         cache-to: type=gha,mode=max
 
