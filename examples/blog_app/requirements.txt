@@ -1,0 +1,28 @@
+# PyFrame Blog Application Dependencies
+
+# Core dependencies
+asyncio
+dataclasses
+typing-extensions
+pathlib
+
+# Web server and HTTP
+websockets>=10.0
+watchdog>=2.0
+
+# Authentication and security
+PyJWT>=2.6.0
+
+# Database (SQLite is built-in to Python)
+# For production, add your preferred database driver:
+# psycopg2-binary  # PostgreSQL
+# pymysql         # MySQL
+
+# Development tools
+black           # Code formatting
+pytest          # Testing
+pytest-asyncio  # Async testing support
+
+# Optional: For enhanced development experience
+rich            # Pretty terminal output
+click           # CLI tools
