@@ -377,6 +377,135 @@
             font-weight: bold;
         }
         
+        /* Examples Showcase */
+        .examples-showcase {
+            background: var(--bg-secondary);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 4rem;
+            border: 1px solid var(--border-color);
+        }
+        
+        .examples-showcase h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: var(--text-color);
+        }
+        
+        .examples-showcase > p {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .example-card {
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .example-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .example-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-5px);
+        }
+        
+        .example-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .example-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .example-card h4 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+        
+        .example-card p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+        
+        .example-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        
+        .example-links a {
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .example-links a:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .example-links a:last-child {
+            background: var(--bg-accent);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+        
+        .example-links a:last-child:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+        
+        .examples-cta {
+            background: var(--bg-color);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        
+        .examples-cta p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
         /* Features */
         .features {
             background: var(--bg-secondary);
@@ -550,7 +679,7 @@
                     <li><a href="https://pypi.org/project/pyframe-web/">PyPI</a></li>
                     <li><a href="#getting-started">Get Started</a></li>
                     <li><a href="#documentation">Documentation</a></li>
-                    <li><a href="#examples">Examples</a></li>
+                    <li><a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples">Examples</a></li>
                 </ul>
                 <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
             </div>
@@ -675,6 +804,53 @@ python main.py
                 </div>
             </section>
 
+            <!-- Examples Showcase -->
+            <section id="examples" class="examples-showcase animate-in">
+                <h3>🚀 Example Applications</h3>
+                <p>Explore real PyFrame applications to learn best practices and see the framework in action.</p>
+                <div class="examples-grid">
+                    <div class="example-card">
+                        <div class="example-icon">🌟</div>
+                        <h4>Showcase App</h4>
+                        <p>Complete demonstration app featuring components, state management, dark mode, and responsive design.</p>
+                        <div class="example-links">
+                            <a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples/showcase_app" target="_blank">View Code</a>
+                            <a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples/showcase_app/main.py" target="_blank">main.py</a>
+                        </div>
+                    </div>
+                    
+                    <div class="example-card">
+                        <div class="example-icon">📝</div>
+                        <h4>Blog Application</h4>
+                        <p>Full-featured blog with posts, comments, user authentication, and database integration.</p>
+                        <div class="example-links">
+                            <a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples/blog_app" target="_blank">View Code</a>
+                            <a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples/blog_app/main.py" target="_blank">main.py</a>
+                        </div>
+                    </div>
+                    
+                    <div class="example-card">
+                        <div class="example-icon">⚡</div>
+                        <h4>Simple Demo</h4>
+                        <p>Minimal PyFrame application showing basic concepts and component structure.</p>
+                        <div class="example-links">
+                            <a href="https://github.com/PyFrameWeb/PyFrame/blob/main/examples/simple_demo.py" target="_blank">View Code</a>
+                            <a href="https://raw.githubusercontent.com/PyFrameWeb/PyFrame/main/examples/simple_demo.py" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="examples-cta">
+                    <p>Want to run these examples locally?</p>
+                    <div class="code-block">
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+git clone https://github.com/PyFrameWeb/PyFrame.git
+cd PyFrame/examples/showcase_app
+python main.py
+                    </div>
+                </div>
+            </section>
+
             <!-- Features -->
             <section class="features animate-in">
                 <h3>Why Choose PyFrame?</h3>
@@ -738,7 +914,7 @@ python main.py
                     <h4>Resources</h4>
                     <ul class="footer-links">
                         <li><a href="https://pypi.org/project/pyframe-web/">PyPI Package</a></li>
-                        <li><a href="../examples/">Examples</a></li>
+                        <li><a href="https://github.com/PyFrameWeb/PyFrame/tree/main/examples">Examples</a></li>
                         <li><a href="plugin-development.html">Plugin Development</a></li>
                     </ul>
                 </div>
