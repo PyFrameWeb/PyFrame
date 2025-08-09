@@ -1,6 +1,10 @@
-# PyFrame - Full-Stack Python Web Framework
+<div align="center">
+  <img src="PyFrame-logo.png" alt="PyFrame Logo" width="200" height="200"/>
+  
+  # PyFrame - Full-Stack Python Web Framework
 
-**A modern, reactive web framework that allows developers to write both frontend and backend entirely in Python, with automatic compilation to efficient JavaScript for the browser.**
+  **A modern, reactive web framework that allows developers to write both frontend and backend entirely in Python, with automatic compilation to efficient JavaScript for the browser.**
+</div>
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
